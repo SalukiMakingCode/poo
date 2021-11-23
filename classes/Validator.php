@@ -1,0 +1,8 @@
+<?php
+//Créer une class Validator qui va servir à valider les données envoyer par le formulaire. Cette
+//classe contiendra des méthodes qui pourront valider : - une chaine de caractère - un entier - un
+//nombre à virgule - etc.
+class Validator
+{
+
+}
