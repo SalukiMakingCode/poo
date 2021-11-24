@@ -11,7 +11,7 @@ class Connexion {
         $this->connexion();
     }
 
-    private function connexion() {
+    public function connexion() {
         try {
             $bdd = new PDO('mysql:host=localhost;dbname='.$this->db.';charset=utf8', $this->login, $this->pass);
             $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
@@ -42,5 +42,6 @@ print_r($db->countTable($sql));
 <a href="helpers1.php">Helpers class 1</a> -
 <a href="helpers2.php">Helpers class 2</a> -
 <a href="helpers3.php">Helpers class 3</a> -
-<a href="voiture.php">Parc de voiture</a>
+<a href="voiture.php">Parc de voiture</a> -
+<a href="exo3.php">exo 3</a>
 
